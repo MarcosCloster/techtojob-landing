@@ -59,5 +59,21 @@
             "workingOnLabel": "En qué estoy trabajando",
             "workingOnValue": "Un dashboard para hacer accesibles los datos de movilidad."
         }
+    },
+    "ForCompanies": {
+        "eyebrow": "Para empresas",
+        "title": "El talento se ve mejor en acción.",
+        "description": "Conecta con desarrolladores que están aprendiendo, construyendo y colaborando. Conoce a tu próxima incorporación viendo cómo trabaja antes de contratar.",
+        "cta": "Conocer al talento de la comunidad",
+        "cards": {
+            "evaluate": {
+                "title": "Evalúa de verdad",
+                "description": "Observa cómo resuelven problemas, comunican y colaboran en proyectos reales compartidos."
+            },
+            "brand": {
+                "title": "Construye marca empleadora",
+                "description": "Sé parte del espacio donde el talento tech en español aprende y se da a conocer."
+            }
+        }
     }
 }

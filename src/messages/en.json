@@ -59,5 +59,21 @@
             "workingOnLabel": "Currently building",
             "workingOnValue": "A dashboard making urban mobility data open and accessible."
         }
+    },
+    "ForCompanies": {
+        "eyebrow": "For companies",
+        "title": "Talent is best seen in action.",
+        "description": "Connect with developers actively learning, building, and collaborating. Meet your next team member by seeing how they work before hiring.",
+        "cta": "Meet community talent",
+        "cards": {
+            "evaluate": {
+                "title": "Real-world evaluation",
+                "description": "See how they solve problems, communicate, and collaborate on shared projects."
+            },
+            "brand": {
+                "title": "Build your employer brand",
+                "description": "Be part of the spaces where tech talent learns and grows."
+            }
+        }
     }
 }
