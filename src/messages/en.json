@@ -123,5 +123,30 @@
                 "quote": "It's the place where tough questions get answered and good ideas find a team."
             }
         ]
+    },
+    "News": {
+        "eyebrow": "From the community",
+        "title": "Ideas to keep moving forward.",
+        "cta": "View all",
+        "items": [
+            {
+                "category": "Community",
+                "date": "Sep 12, 2026",
+                "title": "How to build a portfolio that starts conversations",
+                "text": "It's not about having more projects, but about telling a better story of what you learned building them."
+            },
+            {
+                "category": "Tournaments",
+                "date": "Sep 04, 2026",
+                "title": "Challenge #07: build something that uses real data",
+                "text": "A new community challenge to move away from theory and add a contextual piece to your portfolio."
+            },
+            {
+                "category": "Career",
+                "date": "Aug 28, 2026",
+                "title": "Beyond the resume: what a tech team looks for",
+                "text": "The signals that help companies find the people they truly need."
+            }
+        ]
     }
 }
