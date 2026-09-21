@@ -33,7 +33,7 @@ export default function Navbar() {
         <header className="absolute inset-x-0 top-0 z-50">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 lg:px-8">
 
-                <Logo variant="full" width={80}></Logo>
+                <Logo variant="vertical" width={80} theme='dark'></Logo>
 
                 {/* Nav Desktop */}
                 <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegación principal">
