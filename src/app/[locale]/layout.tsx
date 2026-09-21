@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://techtojob.vercel.app'),
+  metadataBase: new URL('https://techtojob-landing-three.vercel.app'),
 
   title: {
     default: 'TechToJob | Comunidad de Talentos y Empresas Tech',
