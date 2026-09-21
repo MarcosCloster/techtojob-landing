@@ -33,7 +33,7 @@ export default function CommunitySection() {
                         </div>
 
                         <a
-                            href="#unirse"
+                            href="#join"
                             className="mt-10 inline-flex items-center rounded-full bg-[#84c0bf] px-5 py-3 text-sm font-bold text-[#2f3436] transition-colors hover:bg-[#a5d3d1]"
                         >
                             {t('tournaments.cta')}
