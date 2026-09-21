@@ -1,8 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-//import Logo from '@/components/Logo';
 import { X } from 'lucide-react';
+import Logo from './logo';
 
 interface FooterColumn {
     heading: string;
@@ -19,7 +19,7 @@ export default function Footer() {
                 <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.5fr_repeat(4,1fr)]">
                     {/* Logo & Description */}
                     <div>
-                        {/* <Logo /> */}
+                        <Logo theme='light' width={150} variant='horizontal'></Logo>
                         <p className="mt-5 max-w-xs text-sm leading-6 text-white/45">
                             {t('description')}
                         </p>
