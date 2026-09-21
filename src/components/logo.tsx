@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface LogoProps {
-    variant?: "vertical" | "horizontal" | "icon";
+    variant?: "vertical" | "horizontal";
     theme?: "dark" | "light";
     width?: number;
     height?: number;
@@ -17,9 +17,6 @@ export default function Logo({
     className = "",
 }: LogoProps) {
     const getLogoSource = () => {
-        if (variant === "icon") {
-            return "/images/SímboloDegradado.webp";
-        }
 
         if (variant === "horizontal") {
             return theme === "dark" ? "/images/v1Positivo.webp" : "/images/v1Negativo.webp";
@@ -37,10 +34,10 @@ export default function Logo({
             <Image
                 src={getLogoSource()}
                 alt="Tech to Job Logo"
-                width={variant === "icon" ? 36 : width}
-                height={variant === "icon" ? 36 : height}
+                width={width}
+                height={height}
                 priority
-                className={`object-contain ${variant === "icon" ? "h-9 w-9" : "h-auto w-auto"}`}
+                className={`object-contain h-auto w-auto`}
             />
         </Link>
     );
