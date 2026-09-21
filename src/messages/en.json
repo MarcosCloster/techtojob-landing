@@ -148,5 +148,21 @@
                 "text": "The signals that help companies find the people they truly need."
             }
         ]
+    },
+    "JoinSection": {
+        "newsletter": {
+            "eyebrow": "Every Monday, in your inbox",
+            "title": "A dose of community. Zero spam.",
+            "description": "Challenges, resources, opportunities, and the conversations you don't want to miss.",
+            "placeholder": "you@email.com",
+            "button": "Get updates",
+            "success": "All set! Check your inbox."
+        },
+        "cta": {
+            "eyebrow": "Your next step",
+            "titlePart1": "Don't wait to be discovered.",
+            "titlePart2": "Build with us.",
+            "button": "Join TechToJob"
+        }
     }
 }

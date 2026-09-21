@@ -148,5 +148,21 @@
                 "text": "Las señales que ayudan a las empresas a encontrar a las personas que necesitan de verdad."
             }
         ]
+    },
+    "JoinSection": {
+        "newsletter": {
+            "eyebrow": "Cada lunes, en tu bandeja",
+            "title": "Una dosis de comunidad. Cero spam.",
+            "description": "Retos, recursos, oportunidades y las conversaciones que no te quieres perder.",
+            "placeholder": "tu@email.com",
+            "button": "Quiero recibir novedades",
+            "success": "¡Listo! Revisa tu bandeja de entrada."
+        },
+        "cta": {
+            "eyebrow": "Tu siguiente paso",
+            "titlePart1": "No esperes a que te descubran.",
+            "titlePart2": "Construye con nosotros.",
+            "button": "Entrar a TechToJob"
+        }
     }
 }
