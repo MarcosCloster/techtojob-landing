@@ -171,33 +171,69 @@
             {
                 "heading": "Talento",
                 "links": [
-                    "Perfil de comunidad",
-                    "Torneos",
-                    "Recursos"
+                    {
+                        "name": "Perfil de comunidad",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Torneos",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Recursos",
+                        "href": "#"
+                    }
                 ]
             },
             {
                 "heading": "Empresas",
                 "links": [
-                    "Publicar un reto",
-                    "Encontrar talento",
-                    "Colaborar"
+                    {
+                        "name": "Publicar un reto",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Encontrar talento",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Colaborar",
+                        "href": "#"
+                    }
                 ]
             },
             {
                 "heading": "Comunidad",
                 "links": [
-                    "Discord",
-                    "Newsletter",
-                    "Blog"
+                    {
+                        "name": "Discord",
+                        "href": "https://discord.gg/h9FFgKdkRd"
+                    },
+                    {
+                        "name": "Newsletter",
+                        "href": "#join"
+                    },
+                    {
+                        "name": "Blog",
+                        "href": "#"
+                    }
                 ]
             },
             {
                 "heading": "Legal",
                 "links": [
-                    "Privacidad",
-                    "Cookies",
-                    "Contacto"
+                    {
+                        "name": "Privacidad",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Cookies",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Contacto",
+                        "href": "#"
+                    }
                 ]
             }
         ],

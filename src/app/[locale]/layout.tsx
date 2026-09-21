@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | TechToJob',
   },
 
-  description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos. Construye, participa en torneos y destaca hoy.', // 156 caracteres
+  description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos. Construye, participa en torneos y destaca hoy.',
 
   alternates: {
     canonical: './',
@@ -35,11 +35,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos. Construye, participa en torneos y destaca hoy.',
-    url: 'https://techtojob.vercel.app',
+    url: 'https://techtojob-landing-three.vercel.app/',
     siteName: 'TechToJob',
     images: [
       {
-        url: '/../images/SímboloPositivo.webp',
+        url: '/images/TechToJob.png', // Ruta corregida desde la carpeta public
         width: 1200,
         height: 630,
         alt: 'TechToJob - Comunidad de talentos y empresas tech',
@@ -53,22 +53,21 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos.',
-    images: ['/../images/SímboloPositivo.webp'],
+    images: ['/images/TechToJob.png'], // Ruta corregida
   },
 
   icons: {
     icon: [
       {
-        url: "/../images/SímboloPositivo.svg",
+        url: "/images/SímboloPositivo.svg", // Ruta corregida
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/../images/SímboloNegativo.svg",
+        url: "/images/SímboloNegativo.svg", // Ruta corregida
         media: "(prefers-color-scheme: dark)",
       },
     ],
   },
-
 };
 
 type Props = {
@@ -99,13 +98,12 @@ export default async function RootLayout({ children, params }: Props) {
       lang={locale}
       className={`${sora.variable} h-full antialiased`}
     >
-      <head>
+      <body className="min-h-full flex flex-col font-sans">
+        {/* Script de datos estructurados inyectado correctamente en el body sin <head> manual */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </head>
-      <body className="min-h-full flex flex-col font-sans">
         <NextIntlClientProvider>
           {children}
         </NextIntlClientProvider>

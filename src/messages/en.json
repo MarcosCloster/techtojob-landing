@@ -166,42 +166,78 @@
         }
     },
     "Footer": {
-        "description": "The Spanish-speaking community where tech talent meets to build.",
+        "description": "La comunidad en español donde el talento tech se encuentra construyendo.",
         "columns": [
             {
-                "heading": "Talent",
+                "heading": "Talento",
                 "links": [
-                    "Community Profile",
-                    "Tournaments",
-                    "Resources"
+                    {
+                        "name": "Perfil de comunidad",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Torneos",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Recursos",
+                        "href": "#"
+                    }
                 ]
             },
             {
-                "heading": "Companies",
+                "heading": "Empresas",
                 "links": [
-                    "Post a Challenge",
-                    "Find Talent",
-                    "Collaborate"
+                    {
+                        "name": "Publicar un reto",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Encontrar talento",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Colaborar",
+                        "href": "#"
+                    }
                 ]
             },
             {
-                "heading": "Community",
+                "heading": "Comunidad",
                 "links": [
-                    "Discord",
-                    "Newsletter",
-                    "Blog"
+                    {
+                        "name": "Discord",
+                        "href": "https://discord.gg/h9FFgKdkRd"
+                    },
+                    {
+                        "name": "Newsletter",
+                        "href": "#join"
+                    },
+                    {
+                        "name": "Blog",
+                        "href": "#"
+                    }
                 ]
             },
             {
                 "heading": "Legal",
                 "links": [
-                    "Privacy",
-                    "Cookies",
-                    "Contact"
+                    {
+                        "name": "Privacidad",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Cookies",
+                        "href": "#"
+                    },
+                    {
+                        "name": "Contacto",
+                        "href": "#"
+                    }
                 ]
             }
         ],
-        "copyright": "© 2026 TechToJob. Built to construct together.",
-        "subtext": "Independent community of developers and tech companies."
+        "copyright": "© 2026 TechToJob. Hecho para construir juntos.",
+        "subtext": "Comunidad independiente de desarrolladores y empresas tech."
     }
 }

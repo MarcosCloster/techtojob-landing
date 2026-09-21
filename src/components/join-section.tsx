@@ -63,7 +63,7 @@ export default function JoinSection() {
                         </h2>
                     </div>
                     <a
-                        href="https://discord.com"
+                        href="https://discord.gg/h9FFgKdkRd"
                         target="_blank"
                         rel="noreferrer"
                         className="mt-8 inline-flex w-fit items-center rounded-full bg-white px-6 py-3.5 text-sm font-bold text-[#2f3436] transition hover:bg-[#eef5f4]"

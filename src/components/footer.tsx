@@ -4,9 +4,14 @@ import { useTranslations } from 'next-intl';
 import { X } from 'lucide-react';
 import Logo from './logo';
 
+interface FooterLink {
+    name: string;
+    href: string;
+}
+
 interface FooterColumn {
     heading: string;
-    links: string[];
+    links: FooterLink[];
 }
 
 export default function Footer() {
@@ -91,12 +96,12 @@ export default function Footer() {
                             <h3 className="text-sm font-semibold text-white">{col.heading}</h3>
                             <ul className="mt-4 flex flex-col gap-3">
                                 {col.links.map((link) => (
-                                    <li key={link}>
+                                    <li key={link.name}>
                                         <a
-                                            href="#"
+                                            href={link.href}
                                             className="text-sm text-gray-300 transition hover:text-[#84c0bf]"
                                         >
-                                            {link}
+                                            {link.name}
                                         </a>
                                     </li>
                                 ))}
