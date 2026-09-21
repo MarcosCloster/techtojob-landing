@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: 'TechToJob',
     images: [
       {
-        url: '/og-image.jpg', // Recuerda colocar tu imagen de 1200x630 en /public/og-image.jpg
+        url: '/../images/SímboloPositivo.webp', 
         width: 1200,
         height: 630,
         alt: 'TechToJob - Comunidad de talentos y empresas tech',
@@ -53,8 +53,22 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos.',
-    images: ['/og-image.jpg'],
+    images: ['/../images/SímboloPositivo.webp'],
   },
+
+  icons: {
+    icon: [
+      {
+        url: "/../images/SímboloPositivo.svg", 
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/../images/SímboloNegativo.svg", 
+        media: "(prefers-color-scheme: dark)",
+      },
+    ],
+  },
+  
 };
 
 type Props = {
