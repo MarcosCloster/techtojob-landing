@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/src/i18n/navigation';
 import { ChevronDown, ArrowRight, Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import Logo from './logo';
 
 export default function Navbar() {
     const t = useTranslations('Header');
@@ -32,17 +33,9 @@ export default function Navbar() {
         <header className="absolute inset-x-0 top-0 z-50">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 lg:px-8">
 
-                {/* Logo */}
-                <Link href={`/${locale}`} className="flex items-center gap-2">
-                    <div className="flex size-9 items-center justify-center rounded-xl bg-[#84c0bf] font-mono text-sm font-bold text-[#2f3436]">
-                        &lt;/&gt;
-                    </div>
-                    <span className="text-xl font-bold tracking-tight text-[#2f3436]">
-                        TechToJob
-                    </span>
-                </Link>
+                <Logo variant="full" width={80}></Logo>
 
-                {/* Navegación Desktop */}
+                {/* Nav Desktop */}
                 <nav className="hidden items-center gap-8 lg:flex" aria-label="Navegación principal">
                     {navLinks.map((link) => (
                         <a
