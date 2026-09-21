@@ -164,5 +164,44 @@
             "titlePart2": "Construye con nosotros.",
             "button": "Entrar a TechToJob"
         }
+    },
+    "Footer": {
+        "description": "La comunidad en español donde el talento tech se encuentra construyendo.",
+        "columns": [
+            {
+                "heading": "Talento",
+                "links": [
+                    "Perfil de comunidad",
+                    "Torneos",
+                    "Recursos"
+                ]
+            },
+            {
+                "heading": "Empresas",
+                "links": [
+                    "Publicar un reto",
+                    "Encontrar talento",
+                    "Colaborar"
+                ]
+            },
+            {
+                "heading": "Comunidad",
+                "links": [
+                    "Discord",
+                    "Newsletter",
+                    "Blog"
+                ]
+            },
+            {
+                "heading": "Legal",
+                "links": [
+                    "Privacidad",
+                    "Cookies",
+                    "Contacto"
+                ]
+            }
+        ],
+        "copyright": "© 2026 TechToJob. Hecho para construir juntos.",
+        "subtext": "Comunidad independiente de desarrolladores y empresas tech."
     }
 }

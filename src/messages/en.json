@@ -164,5 +164,44 @@
             "titlePart2": "Build with us.",
             "button": "Join TechToJob"
         }
+    },
+    "Footer": {
+        "description": "The Spanish-speaking community where tech talent meets to build.",
+        "columns": [
+            {
+                "heading": "Talent",
+                "links": [
+                    "Community Profile",
+                    "Tournaments",
+                    "Resources"
+                ]
+            },
+            {
+                "heading": "Companies",
+                "links": [
+                    "Post a Challenge",
+                    "Find Talent",
+                    "Collaborate"
+                ]
+            },
+            {
+                "heading": "Community",
+                "links": [
+                    "Discord",
+                    "Newsletter",
+                    "Blog"
+                ]
+            },
+            {
+                "heading": "Legal",
+                "links": [
+                    "Privacy",
+                    "Cookies",
+                    "Contact"
+                ]
+            }
+        ],
+        "copyright": "© 2026 TechToJob. Built to construct together.",
+        "subtext": "Independent community of developers and tech companies."
     }
 }
