@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     canonical: './',
   },
 
-  openGraph: {
+ openGraph: {
     title: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos. Construye, participa en torneos y destaca hoy.',
     url: 'https://techtojob-landing-three.vercel.app/',
     siteName: 'TechToJob',
     images: [
       {
-        url: '/images/TechToJob.png', // Ruta corregida desde la carpeta public
+        url: '/images/TechToJob.png', 
         width: 1200,
         height: 630,
         alt: 'TechToJob - Comunidad de talentos y empresas tech',
@@ -53,17 +53,17 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos.',
-    images: ['/images/TechToJob.png'], // Ruta corregida
+    images: ['/images/TechToJob.png'],
   },
 
   icons: {
     icon: [
       {
-        url: "/images/SímboloPositivo.svg", // Ruta corregida
+        url: "/images/SímboloPositivo.svg", 
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/images/SímboloNegativo.svg", // Ruta corregida
+        url: "/images/SímboloNegativo.svg", 
         media: "(prefers-color-scheme: dark)",
       },
     ],
