@@ -92,5 +92,36 @@
             "description": "Frontend, backend, datos, UX, carrera y mucho más. Dudas resueltas en minutos y conversaciones que siguen fuera de la pantalla.",
             "footer": "Ofertas compartidas en la comunidad"
         }
+    },
+    "Testimonials": {
+        "eyebrow": "Historias de la comunidad",
+        "title": "Lo que pasa cuando conectas.",
+        "cta": "Únete a la conversación",
+        "items": [
+            {
+                "name": "Lucía Martín",
+                "role": "Frontend Developer",
+                "initials": "LM",
+                "quote": "Aquí encontré mi primer equipo para construir algo real. Aprendí más en un torneo que en meses de tutoriales."
+            },
+            {
+                "name": "Diego Ruiz",
+                "role": "Backend Engineer",
+                "initials": "DR",
+                "quote": "TechToJob me permitió demostrar cómo pienso y trabajo, no solo listar tecnologías en un CV."
+            },
+            {
+                "name": "Ana Sánchez",
+                "role": "Talent Partner",
+                "initials": "AS",
+                "quote": "Encontramos perfiles increíbles viendo su código en acción. La comunidad cambia por completo la conversación."
+            },
+            {
+                "name": "Javier Pérez",
+                "role": "Full-stack Developer",
+                "initials": "JP",
+                "quote": "Es el lugar donde las preguntas difíciles tienen respuesta y las buenas ideas encuentran equipo."
+            }
+        ]
     }
 }
