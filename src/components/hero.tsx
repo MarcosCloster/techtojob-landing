@@ -1,5 +1,7 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
-import { Sparkles, ArrowRight, Code2, Terminal } from 'lucide-react';
+import { Sparkles, ArrowRight, Terminal } from 'lucide-react';
 import { CSSProperties, useState } from 'react';
 
 export default function HeroSection() {
@@ -8,7 +10,7 @@ export default function HeroSection() {
 
     return (
         <section
-            id="inicio"
+            id="home"
             className="hero-section relative flex min-h-screen items-center justify-center bg-[#eef5f4] px-5 py-24 lg:px-8 lg:py-32"
             style={
                 {

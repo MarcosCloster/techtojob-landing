@@ -34,7 +34,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section id="como-funciona" className="bg-white px-5 py-24 lg:px-8 lg:py-32">
+    <section id="how-it-works" className="bg-white px-5 py-24 lg:px-8 lg:py-32">
       <div data-reveal className="mx-auto max-w-7xl">
         <div className="max-w-xl">
           <p className="eyebrow">{t('eyebrow')}</p>
@@ -42,9 +42,9 @@ export default function HowItWorks() {
           <p className="section-copy">{t('description')}</p>
         </div>
 
-        {/* Contenedor del Grid con Timeline */}
+        {/* Grid Container with Timeline */}
         <div className="relative mt-16">
-          {/* Línea conectora del Timeline (Solo visible en Desktop) */}
+          {/* Timeline connecting line (Visible only on Desktop) */}
           <div
             className="pointer-events-none absolute top-7 inset-x-8 hidden h-0.5 bg-gradient-to-r from-[#b7d9d7] via-[#e3e9e7] to-[#84c0bf] lg:block"
             aria-hidden="true"
@@ -57,33 +57,30 @@ export default function HowItWorks() {
               return (
                 <article
                   key={number}
-                  className={`relative flex flex-col justify-between rounded-3xl border p-6 transition-all duration-300 ${
-                    isLast
-                      ? 'border-[#84c0bf] bg-[#f0f8f7] shadow-sm'
-                      : 'border-[#e3e9e7] bg-[#f7f8f7] hover:border-[#b7d9d7] hover:bg-[#eef5f4]'
-                  }`}
+                  className={`relative flex flex-col justify-between rounded-3xl border p-6 transition-all duration-300 ${isLast
+                    ? 'border-[#84c0bf] bg-[#f0f8f7] shadow-sm'
+                    : 'border-[#e3e9e7] bg-[#f7f8f7] hover:border-[#b7d9d7] hover:bg-[#eef5f4]'
+                    }`}
                 >
-                  {/* Header de Card: Nodo del Timeline + Número */}
+                  {/* Card Header: Timeline Node + Number */}
                   <div className="relative z-10 flex items-center justify-between">
                     <div
-                      className={`flex size-11 items-center justify-center rounded-2xl shadow-sm transition-transform duration-300 group-hover:scale-105 ${
-                        isLast
+                      className={`flex size-11 items-center justify-center rounded-2xl shadow-sm transition-transform duration-300 group-hover:scale-105 ${isLast
                           ? 'bg-[#84c0bf] text-[#2f3436]'
                           : 'bg-white text-[#5d9e9c]'
-                      }`}
+                        }`}
                     >
                       <Icon className="size-5" />
                     </div>
                     <span
-                      className={`font-mono text-xs font-bold ${
-                        isLast ? 'text-[#3b6362]' : 'text-[#78aaa8]'
-                      }`}
+                      className={`font-mono text-xs font-bold ${isLast ? 'text-[#3b6362]' : 'text-[#78aaa8]'
+                        }`}
                     >
                       {number}
                     </span>
                   </div>
 
-                  {/* Cuerpo de la Card */}
+                  {/* Card Body */}
                   <div className="mt-10">
                     <h3 className="text-lg font-bold text-[#2f3436]">
                       {t(titleKey)}

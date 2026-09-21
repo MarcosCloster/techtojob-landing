@@ -9,7 +9,7 @@ export default function ForCompanies() {
     return (
         <section id="for-companies" className="bg-[#dcefed] px-5 py-24 lg:px-8 lg:py-32">
             <div data-reveal className="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[.8fr_1.2fr]">
-                {/* Columna Izquierda: Información Principal */}
+                {/* Left Column: Main Information */}
                 <div>
                     <p className="eyebrow">{t('eyebrow')}</p>
                     <h2 className="section-title">{t('title')}</h2>
@@ -20,9 +20,9 @@ export default function ForCompanies() {
                     </a>
                 </div>
 
-                {/* Columna Derecha: Tarjetas Desplazadas */}
+                {/* Right Column: Offset Cards */}
                 <div className="grid gap-4 sm:grid-cols-2">
-                    {/* Tarjeta 1: Evalúa de verdad */}
+                    {/* Card 1: Evaluate for real */}
                     <article className="rounded-3xl bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
                         <Users className="size-6 text-[#5d9e9c]" />
                         <h3 className="mt-10 text-xl font-bold text-[#2f3436]">
@@ -33,7 +33,7 @@ export default function ForCompanies() {
                         </p>
                     </article>
 
-                    {/* Tarjeta 2: Construye marca */}
+                    {/* Card 2: Build brand */}
                     <article className="rounded-3xl bg-[#2f3436] p-7 text-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md sm:translate-y-8">
                         <Trophy className="size-6 text-[#84c0bf]" />
                         <h3 className="mt-10 text-xl font-bold text-white">

@@ -10,7 +10,7 @@ export default function CommunitySection() {
         <section id="community" className="bg-white px-5 py-24 lg:px-8 lg:py-32">
             <div data-reveal className="mx-auto max-w-7xl">
                 <div className="grid gap-6 lg:grid-cols-3">
-                    {/* Bloque 1: Torneos (2 Columnas) */}
+                    {/* Block 1: Tournaments (2 Columns) */}
                     <div className="feature-panel relative overflow-hidden rounded-[2rem] bg-[#2f3436] p-8 text-white lg:col-span-2 lg:p-12">
                         <p className="eyebrow text-[#84c0bf]">{t('tournaments.eyebrow')}</p>
                         <h2 className="mt-4 max-w-xl text-3xl font-bold leading-tight tracking-[-0.04em] sm:text-4xl">
@@ -41,7 +41,7 @@ export default function CommunitySection() {
                         </a>
                     </div>
 
-                    {/* Bloque 2: Networking (1 Columna) */}
+                    {/* Block 2: Networking (1 Column) */}
                     <div className="flex flex-col justify-between rounded-[2rem] border border-[#e3e9e7] bg-[#f7f8f7] p-8">
                         <div>
                             <p className="eyebrow">{t('networking.eyebrow')}</p>

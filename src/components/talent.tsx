@@ -74,7 +74,7 @@ export default function ForTalent() {
           </div>
         </div>
 
-        {/* Right Column: Copywriting y Bullets */}
+        {/* Right Column: Copywriting and Bullets */}
         <div className="order-1 lg:order-2">
           <p className="eyebrow">{t('eyebrow')}</p>
           <h2 className="section-title">{t('title')}</h2>

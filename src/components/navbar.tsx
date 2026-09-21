@@ -48,7 +48,7 @@ export default function Navbar() {
                     ))}
                 </nav>
 
-                {/* Selector de Idioma Desktop */}
+                {/* Desktop Language Selector */}
                 <div className="relative hidden lg:block">
                     <button
                         type="button"
@@ -89,7 +89,7 @@ export default function Navbar() {
                     )}
                 </div>
 
-                {/* CTA Secundario Desktop (Estilo Outline / Ghost) */}
+                {/* Desktop Secondary CTA (Outline / Ghost Style) */}
                 <a
                     href="https://discord.gg/h9FFgKdkRd"
                     target="_blank"
@@ -99,7 +99,7 @@ export default function Navbar() {
                     {t('discordCta')} <ArrowRight className="ml-2 size-4" />
                 </a>
 
-                {/* Botón Menú Mobile */}
+                {/* Mobile Menu Button */}
                 <button
                     onClick={() => setMenuOpen(!menuOpen)}
                     className="rounded-lg p-2 lg:hidden text-[#2f3436]"
@@ -110,7 +110,7 @@ export default function Navbar() {
                 </button>
             </div>
 
-            {/* Menú Mobile */}
+            {/* Mobile Menu */}
             {menuOpen && (
                 <nav className="mx-4 flex flex-col gap-1 rounded-2xl border border-[#dfe6e4] bg-white p-3 shadow-lg lg:hidden">
                     {navLinks.map((link) => (

@@ -15,14 +15,14 @@ const sora = Sora({
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#000000', // Modifícalo al color de fondo principal de tu app
+  themeColor: '#000000',
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://techtojob.vercel.app'),
 
   title: {
-    default: 'TechToJob | Comunidad de Talentos y Empresas Tech', // 51 caracteres
+    default: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     template: '%s | TechToJob',
   },
 
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     siteName: 'TechToJob',
     images: [
       {
-        url: '/../images/SímboloPositivo.webp', 
+        url: '/../images/SímboloPositivo.webp',
         width: 1200,
         height: 630,
         alt: 'TechToJob - Comunidad de talentos y empresas tech',
@@ -59,16 +59,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/../images/SímboloPositivo.svg", 
+        url: "/../images/SímboloPositivo.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/../images/SímboloNegativo.svg", 
+        url: "/../images/SímboloNegativo.svg",
         media: "(prefers-color-scheme: dark)",
       },
     ],
   },
-  
+
 };
 
 type Props = {
@@ -81,15 +81,14 @@ export default async function RootLayout({ children, params }: Props) {
 
   if (!hasLocale(routing.locales, locale)) return notFound();
 
-  // Objeto con los datos estructurados JSON-LD de tipo Organization
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'TechToJob',
     url: 'https://techtojob.vercel.app',
-    logo: 'https://techtojob.vercel.app/logo.png', // Modifica por la URL/ruta de tu logo
+    logo: 'https://techtojob.vercel.app/logo.png',
     sameAs: [
-      'https://discord.gg/h9FFgKdkRd', // Ajusta las redes según tus enlaces reales
+      'https://discord.gg/h9FFgKdkRd',
       'https://github.com',
       'https://linkedin.com',
     ],
