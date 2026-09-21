@@ -1,0 +1,63 @@
+{
+    "Hero": {
+        "badge": "A community that opens doors",
+        "title": "Your talent deserves more than a <highlight>filter.</highlight>",
+        "description": "TechToJob is the Spanish-speaking community where developers and tech companies connect by building, collaborating, and sharing knowledge.",
+        "cta": "Join the Discord community",
+        "socialProof": "+2,400 people are already in",
+        "cardTag": "// build in public",
+        "cardQuote": "Opportunities appear when you show what you know how to build.",
+        "cardStatus": "Status: Hired by projects, not CV"
+    },
+    "Header": {
+        "nav": {
+            "howItWorks": "How it works",
+            "forTalent": "For talent",
+            "forCompanies": "For companies",
+            "community": "Community"
+        },
+        "languageLabel": "Language",
+        "discordCta": "Join Discord"
+    },
+    "HowItWorks": {
+        "eyebrow": "The TechToJob Path",
+        "title": "A community to move forward by building.",
+        "description": "No endless processes or impersonal forms. Join, participate, and let your work speak for itself.",
+        "steps": {
+            "01": {
+                "title": "Join the server",
+                "text": "Join for free a community that shares your view on technology."
+            },
+            "02": {
+                "title": "Participate & learn",
+                "text": "Find your channel, solve doubts, and take part in tournaments with other devs."
+            },
+            "03": {
+                "title": "Show your work",
+                "text": "Build real projects and let your skills stand out."
+            },
+            "04": {
+                "title": "Connect with companies",
+                "text": "Companies discover you for your talent, not an automated filter."
+            }
+        }
+    },
+    "ForTalent": {
+        "eyebrow": "For talent",
+        "title": "Get recognized for what you can build.",
+        "description": "Build a live profile showcasing your stack, experience level, projects, and availability. No ATS, no keywords, no fitting into rigid templates.",
+        "bullets": {
+            "01": "Share real projects and learnings",
+            "02": "Connect with peers who share your interests",
+            "03": "Receive opportunities tailored to your skillset"
+        },
+        "card": {
+            "status": "Available",
+            "stackLabel": "Main stack",
+            "levelLabel": "Level",
+            "levelValue": "Mid-level",
+            "workingOnLabel": "Currently building",
+            "workingOnValue": "A dashboard making urban mobility data open and accessible."
+        }
+    }
+}

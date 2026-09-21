@@ -1,0 +1,63 @@
+{
+    "Hero": {
+        "badge": "Comunidad que abre puertas",
+        "title": "Tu talento merece más que un <highlight>filtro.</highlight>",
+        "description": "TechToJob es la comunidad en español donde desarrolladores y empresas tech se conocen construyendo, colaborando y compartiendo lo que saben.",
+        "cta": "Entrar a la comunidad en Discord",
+        "socialProof": "+2.400 personas ya están dentro",
+        "cardTag": "// build in public",
+        "cardQuote": "Las oportunidades aparecen cuando muestras lo que sabes crear.",
+        "cardStatus": "Estado: Contratado por proyectos, no por CV"
+    },
+    "Header": {
+        "nav": {
+            "howItWorks": "Cómo funciona",
+            "forTalent": "Para talento",
+            "forCompanies": "Para empresas",
+            "community": "Comunidad"
+        },
+        "languageLabel": "Idioma",
+        "discordCta": "Unirse a Discord"
+    },
+    "HowItWorks": {
+        "eyebrow": "El camino TechToJob",
+        "title": "Una comunidad para avanzar haciendo.",
+        "description": "Sin procesos eternos ni formularios impersonales. Entra, participa y deja que tu forma de trabajar hable por ti.",
+        "steps": {
+            "01": {
+                "title": "Entra al servidor",
+                "text": "Únete gratis a una comunidad que comparte tu forma de ver la tecnología."
+            },
+            "02": {
+                "title": "Participa y aprende",
+                "text": "Encuentra tu canal, resuelve dudas y participa en torneos con otros devs."
+            },
+            "03": {
+                "title": "Muestra lo que haces",
+                "text": "Construye proyectos reales y deja que tu trabajo hable por ti."
+            },
+            "04": {
+                "title": "Conecta con empresas",
+                "text": "Las empresas te conocen por tu talento, no por un filtro automático."
+            }
+        }
+    },
+    "ForTalent": {
+        "eyebrow": "Para talento",
+        "title": "Que te conozcan por lo que sabes hacer.",
+        "description": "Crea un perfil vivo con tu stack, nivel, proyectos y disponibilidad. Sin ATS, sin palabras clave, sin tener que encajar en una plantilla.",
+        "bullets": {
+            "01": "Comparte proyectos y aprendizajes reales",
+            "02": "Encuentra personas con tus mismos intereses",
+            "03": "Recibe oportunidades que encajan contigo"
+        },
+        "card": {
+            "status": "Disponible",
+            "stackLabel": "Stack principal",
+            "levelLabel": "Nivel",
+            "levelValue": "Intermedio",
+            "workingOnLabel": "En qué estoy trabajando",
+            "workingOnValue": "Un dashboard para hacer accesibles los datos de movilidad."
+        }
+    }
+}
