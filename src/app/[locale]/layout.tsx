@@ -32,14 +32,14 @@ export const metadata: Metadata = {
     canonical: './',
   },
 
- openGraph: {
+  openGraph: {
     title: 'TechToJob | Comunidad de Talentos y Empresas Tech',
     description: 'Únete a la comunidad tech en español donde desarrolladores y empresas conectan sin filtros automáticos. Construye, participa en torneos y destaca hoy.',
     url: 'https://techtojob-landing-three.vercel.app/',
     siteName: 'TechToJob',
     images: [
       {
-        url: '/images/TechToJob.png', 
+        url: '/images/TechToJob.png',
         width: 1200,
         height: 630,
         alt: 'TechToJob - Comunidad de talentos y empresas tech',
@@ -59,11 +59,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/images/SímboloPositivo.svg", 
+        url: "/images/SímboloPositivo.svg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/images/SímboloNegativo.svg", 
+        url: "/images/SímboloNegativo.svg",
         media: "(prefers-color-scheme: dark)",
       },
     ],
@@ -96,10 +96,9 @@ export default async function RootLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${sora.variable} h-full antialiased`}
+      className={`${sora.variable} antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans">
-        {/* Script de datos estructurados inyectado correctamente en el body sin <head> manual */}
+      <body className="min-h-screen font-sans">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

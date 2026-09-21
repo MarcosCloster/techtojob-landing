@@ -33,7 +33,7 @@ export default function Page() {
   }, [])
 
   return (
-    <div className="min-h-screen overflow-hidden bg-[#f7f8f7] text-[#2f3436]">
+    <div className="bg-[#f7f8f7] text-[#2f3436]">
 
       <Navbar></Navbar>
 

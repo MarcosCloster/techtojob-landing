@@ -59,23 +59,6 @@ export default function HeroSection() {
                     >
                         {t('cta')} <ArrowRight className="ml-3 size-4" />
                     </a>
-
-                    <div className="mt-10 flex items-center gap-3 text-sm text-[#555e60]">
-                        <div className="flex -space-x-2" aria-hidden="true">
-                            {['ML', 'JC', 'SR', '+'].map((x, i) => (
-                                <span
-                                    key={x}
-                                    className={`flex size-8 items-center justify-center rounded-full border-2 border-[#eef5f4] text-[10px] font-bold ${i === 3
-                                            ? 'bg-[#2f3436] text-white'
-                                            : 'bg-white text-[#4e8886]'
-                                        }`}
-                                >
-                                    {x}
-                                </span>
-                            ))}
-                        </div>
-                        <span>{t('socialProof')}</span>
-                    </div>
                 </div>
 
                 {/* Right Card */}
