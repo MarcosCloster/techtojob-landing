@@ -20,28 +20,28 @@ export default function Footer() {
                     {/* Logo & Description */}
                     <div>
                         <Logo theme='light' width={150} variant='horizontal'></Logo>
-                        <p className="mt-5 max-w-xs text-sm leading-6 text-white/45">
+                        <p className="mt-5 max-w-xs text-sm leading-6 text-gray-300">
                             {t('description')}
                         </p>
                         <div className="mt-6 flex gap-3">
                             <a
                                 href="#"
                                 aria-label="X"
-                                className="flex size-9 items-center justify-center rounded-full border border-white/10 text-white/60 hover:text-white"
+                                className="flex size-9 items-center justify-center rounded-full border border-white/10 text-gray-300 hover:text-white"
                             >
                                 <X className="size-4" />
                             </a>
                             <a
                                 href="#"
                                 aria-label="LinkedIn"
-                                className="flex size-9 items-center justify-center rounded-full border border-white/10 text-white/60 hover:text-white"
+                                className="flex size-9 items-center justify-center rounded-full border border-white/10 text-gray-300 hover:text-white"
                             >
                                 in
                             </a>
                             <a
                                 href="#"
                                 aria-label="Instagram"
-                                className="flex size-9 items-center justify-center rounded-full border border-white/10 text-white/60 hover:text-white"
+                                className="flex size-9 items-center justify-center rounded-full border border-white/10 text-gray-300 hover:text-white"
                             >
                                 ◎
                             </a>
@@ -57,7 +57,7 @@ export default function Footer() {
                                     <li key={link}>
                                         <a
                                             href="#"
-                                            className="text-sm text-white/45 transition hover:text-[#84c0bf]"
+                                            className="text-sm text-gray-300 transition hover:text-[#84c0bf]"
                                         >
                                             {link}
                                         </a>
@@ -69,7 +69,7 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Bar */}
-                <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-white/35 sm:flex-row sm:justify-between">
+                <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-gray-300 sm:flex-row sm:justify-between">
                     <span>{t('copyright')}</span>
                     <span>{t('subtext')}</span>
                 </div>
