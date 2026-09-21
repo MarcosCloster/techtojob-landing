@@ -75,5 +75,22 @@
                 "description": "Be part of the spaces where tech talent learns and grows."
             }
         }
+    },
+    "Community": {
+        "tournaments": {
+            "eyebrow": "Community Tournaments",
+            "title": "Learn, compete, and build something to show.",
+            "description": "Short challenges, open teams, and collaborative projects. Your next portfolio case study starts here.",
+            "badge1": "Active Challenge",
+            "badge2": "Open Teams",
+            "badge3": "React + APIs",
+            "cta": "View upcoming challenges"
+        },
+        "networking": {
+            "eyebrow": "Real Networking",
+            "title": "Your peers are just one channel away.",
+            "description": "Frontend, backend, data, UX, career, and more. Questions solved in minutes and conversations that go beyond the screen.",
+            "footer": "Community shared opportunities"
+        }
     }
 }

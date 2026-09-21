@@ -75,5 +75,22 @@
                 "description": "Sé parte del espacio donde el talento tech en español aprende y se da a conocer."
             }
         }
+    },
+    "Community": {
+        "tournaments": {
+            "eyebrow": "Torneos comunitarios",
+            "title": "Aprende, compite y sal con algo que enseñar.",
+            "description": "Retos breves, equipos abiertos y proyectos que nacen de la colaboración. Tu próximo caso de estudio empieza aquí.",
+            "badge1": "Reto abierto",
+            "badge2": "Inscripciones libres",
+            "badge3": "React + APIs",
+            "cta": "Ver próximos retos"
+        },
+        "networking": {
+            "eyebrow": "Networking real",
+            "title": "Tu gente está a un canal de distancia.",
+            "description": "Frontend, backend, datos, UX, carrera y mucho más. Dudas resueltas en minutos y conversaciones que siguen fuera de la pantalla.",
+            "footer": "Ofertas compartidas en la comunidad"
+        }
     }
 }
