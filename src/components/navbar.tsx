@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/src/i18n/navigation';
 import { ChevronDown, ArrowRight, Menu, X } from 'lucide-react';
@@ -14,6 +14,20 @@ export default function Navbar() {
 
     const [languageOpen, setLanguageOpen] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
+
+    // Bloquear el scroll del body cuando el menú móvil está abierto
+    useEffect(() => {
+        if (menuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+
+        // Limpieza al desmontar el componente
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [menuOpen]);
 
     const navLinks = [
         { href: '#how-it-works', label: t('nav.howItWorks') },
@@ -35,7 +49,7 @@ export default function Navbar() {
                 <div 
                     aria-hidden="true"
                     onClick={() => setMenuOpen(false)}
-                    className="fixed inset-0 z-40 bg-black/20 backdrop-blur-sm transition-opacity lg:hidden"
+                    className="fixed inset-0 z-40 bg-black/25 backdrop-blur-sm transition-opacity lg:hidden"
                 />
             )}
 
