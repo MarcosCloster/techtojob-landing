@@ -84,12 +84,13 @@ export default async function RootLayout({ children, params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'TechToJob',
-    url: 'https://techtojob.vercel.app',
-    logo: 'https://techtojob.vercel.app/logo.png',
+    url: 'https://techtojob-landing-three.vercel.app/es',
+    logo: '/images/TechToJob.png',
     sameAs: [
       'https://discord.gg/h9FFgKdkRd',
-      'https://github.com',
-      'https://linkedin.com',
+      'https://www.linkedin.com/company/techtojob/',
+      'https://www.instagram.com/techtojob',
+      'https://x.com/techtojob',
     ],
   };
 
