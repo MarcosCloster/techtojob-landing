@@ -165,44 +165,44 @@
         }
     },
     "Footer": {
-        "description": "La comunidad en español donde el talento tech se encuentra construyendo.",
+        "description": "The Spanish-speaking community where tech talent meets to build.",
         "columns": [
             {
-                "heading": "Talento",
+                "heading": "Talent",
                 "links": [
                     {
-                        "name": "Perfil de comunidad",
+                        "name": "Community profile",
                         "href": "#"
                     },
                     {
-                        "name": "Torneos",
+                        "name": "Tournaments",
                         "href": "#"
                     },
                     {
-                        "name": "Recursos",
+                        "name": "Resources",
                         "href": "#"
                     }
                 ]
             },
             {
-                "heading": "Empresas",
+                "heading": "Companies",
                 "links": [
                     {
-                        "name": "Publicar un reto",
+                        "name": "Post a challenge",
                         "href": "#"
                     },
                     {
-                        "name": "Encontrar talento",
+                        "name": "Find talent",
                         "href": "#"
                     },
                     {
-                        "name": "Colaborar",
+                        "name": "Collaborate",
                         "href": "#"
                     }
                 ]
             },
             {
-                "heading": "Comunidad",
+                "heading": "Community",
                 "links": [
                     {
                         "name": "Discord",
@@ -222,7 +222,7 @@
                 "heading": "Legal",
                 "links": [
                     {
-                        "name": "Privacidad",
+                        "name": "Privacy",
                         "href": "#"
                     },
                     {
@@ -230,13 +230,13 @@
                         "href": "#"
                     },
                     {
-                        "name": "Contacto",
+                        "name": "Contact",
                         "href": "#"
                     }
                 ]
             }
         ],
-        "copyright": "© 2026 TechToJob. Hecho para construir juntos.",
-        "subtext": "Comunidad independiente de desarrolladores y empresas tech."
+        "copyright": "© 2026 TechToJob. Built to create together.",
+        "subtext": "Independent community of developers and tech companies."
     }
 }
